@@ -59,6 +59,7 @@ p {
 .btn__menu {
   background-color: transparent;
   border: none;
+  padding: 12px;
   display: none;
   font-size: 40px;
   text-align: center;
@@ -621,6 +622,17 @@ li {
   flex-direction: column;
 }
 
+.values__list {
+    width: 50%;
+
+}
+.values__list .values__img--wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+
+
+}
 
 #values .section__tag {
     justify-content: center;
@@ -679,6 +691,12 @@ li {
     justify-content: center;
 }
 
+.values__img--wrapper {
+    width: 50%;
+    display: flex;
+    max-width: 480px;
+
+}
 .value__title--img {
     align-items: center;
     justify-content: center;
@@ -698,7 +716,6 @@ li {
 .value:nth-child(2) .value__img {
     align-items: center;
     justify-content: center;
-    text-align: center;
     display: flex;
 }
 
@@ -706,6 +723,8 @@ li {
   background-color: #9ae6b4;
   justify-content: center;
   align-items: center;
+  display: flex;
+  text-wrap: initial;
   width: 25%;
   height: 25%;
   max-width: 48px;
@@ -714,6 +733,8 @@ li {
   background-color: #feb2b2;
   justify-content: center;
   align-items: center;
+  display: flex;
+  text-wrap: initial;
   width: 25%;
   height: 25%;
   max-width: 48px;
@@ -725,9 +746,8 @@ li {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
-  max-width: 520px;
+  height: 48px;
+  width: 48px;
 }
 
 #values .value__title {
@@ -754,6 +774,7 @@ li {
   align-items: center;
   text-align: center;
 }
+
 
 /* PRICING */
 
@@ -1475,7 +1496,7 @@ footer {
   .nav__links {
     display: none;
   }
-  
+
   .btn__menu {
     display: block;
   }
