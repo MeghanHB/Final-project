@@ -1353,7 +1353,6 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  justify-content: center;
 }
 
 .footer__info {
@@ -1716,14 +1715,16 @@ h1 {
      display: flex;
   align-items: flex-start;
   margin-top: 32px;
+  text-align: center;
+  margin: 0 auto;
   }
+
   .step__description {
     margin-top: 12px;
     padding: 32px 0;
-  padding-left: 64px;
   display: flex;
   flex-direction: column;
-  margin-left: 24px;
+  margin-left: 0;
   max-width: 320px;
 }
   
@@ -1785,7 +1786,7 @@ h1 {
 }
 .values__description,
 .values__img {
-  width: 50%;
+  width: 100%;
 }
   .values__list {
     margin-left: 0px;
