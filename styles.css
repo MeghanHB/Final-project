@@ -253,12 +253,12 @@ li {
 }
 
 .row {
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+      width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .header__description {
@@ -638,6 +638,7 @@ li {
   font-weight: 600;
   line-height: 1;
 }
+
 .step__description {
   display: flex;
   flex-direction: column;
@@ -850,8 +851,6 @@ li {
     width: 50%;
     display: flex;
     flex-direction: row;
-
-
 }
 
 #values .section__tag {
@@ -890,6 +889,7 @@ li {
     align-items: center;
     justify-content: center;
 }
+
 #values .section__list {
   margin-left: 0px;
   margin-right: 0px;
@@ -911,12 +911,14 @@ li {
     justify-content: center;
 }
 
-.values__img--wrapper {
-    width: 50%;
+.values___img {
     display: flex;
-    max-width: 480px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
 
 }
+
 .value__title--img {
     align-items: center;
     justify-content: center;
@@ -961,13 +963,12 @@ li {
 }
 
 .value__img--wrapper {
-  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 48px;
-  width: 48px;
+  width: 50%;
+  max-width: 120px;
 }
 
 #values .value__title {
@@ -995,7 +996,9 @@ li {
   text-align: center;
 }
 
-
+.values--description, .values__img {
+  width: 50%;
+}
 
 /* PRICING */
 
@@ -2143,6 +2146,9 @@ h1 {
   text-align: center;
 }
 
+.values__description, .values__img {
+  width: 50%;
+}
 
 /*
 #values {
